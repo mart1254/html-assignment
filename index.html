@@ -5,26 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dominic's About Me - Home</title>
-
-    <style>
-        body {
-            background-color: khaki;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            width: 75%;
-        }
-    </style>
+    <link href="CSS/main.css" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li><a href="notes.html">Notes</a></li>
-        </ul>
-    </nav>
-    <hr style="width:100%;height:2px;border-width:0;color:grey;background-color:grey;">
-    <h1 style="color:red;">Dominic Ty Martin</h1>
-    <img src="images/Dominic_Martin.JPG" alt="Dominic Martin" width="300">
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="notes.html">Notes</a></li>
+            </ul>
+        </nav>
+        <h1 class="site-title">Dominic Ty Martin</h1>
+    </header>
+
+    <hr>
+    <img id="my-image" src="images/Dominic_Martin.JPG" alt="Dominic Martin" width="300">
     <article>
         <h2> About Me</h2>
         <p> Hello! I'm Dominic Martin. <br> 
@@ -46,16 +42,18 @@
 
         <p>Here are two of my favourite hobbies!</p>
 
-        <ul>
+        <ul class="hobbies">
             <li>History</li>
             <li>Biking</li>
+            <li>D&D</li>
+            <li>Music</li>
         </ul>
         
         
         <p>Due to my previous endeavours, I am reminded of a quote from one of my favourite Sci-Fi
         series:</p>
 
-        <blockquote style="color:rgb(48, 48, 248);">It is possible to commit no errors and still lose. 
+        <blockquote>It is possible to commit no errors and still lose. 
         That is not a weakness. That is life. -
         <cite>Captain Jean-Luc Picard</cite></blockquote>
     </article>
